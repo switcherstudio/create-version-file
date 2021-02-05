@@ -8,7 +8,8 @@ try {
 
   const commit = require("child_process")
     .execSync("git rev-parse --short HEAD")
-    .toString();
+    .toString()
+    .trim();
 
   const data = {
     environment: environment,

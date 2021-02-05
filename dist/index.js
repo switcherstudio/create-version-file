@@ -14,7 +14,8 @@ try {
   const version = core.getInput("version");
 
   const commit = __nccwpck_require__(129).execSync("git rev-parse --short HEAD")
-    .toString();
+    .toString()
+    .trim();
 
   const data = {
     environment: environment,
