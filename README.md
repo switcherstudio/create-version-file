@@ -15,7 +15,7 @@ None.
 ## Example usage:
 
 ```
-uses: 
+uses: switcherstudio/create-version-file@master
 with:
   environment: 'dev'
   version: '1.0'
