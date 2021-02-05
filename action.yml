@@ -1,0 +1,19 @@
+name: 'Create Version File'
+description: 'Create and ouput a version file in json format'
+inputs:
+  version:
+    description: 'Version number'
+    required: true
+  environment:
+    description: 'Deployment environment'
+    required: true
+  commit:
+    description: 'Last git commit hash'
+    required: true
+  outdir:
+    description: 'The output directory for the version.json file'
+    required: true
+    default: 'public'
+runs:
+  using: 'node12'
+  main: 'index.js'
