@@ -9,8 +9,8 @@ A GitHub action which generates a static version file with environment, version,
 ### `version`
 **REQUIRED** The version number of the current release.
 
-## Outputs
-None.
+### `outdir`:
+The output directory for the version.json file. Default is `public`.
 
 ## Example usage:
 
