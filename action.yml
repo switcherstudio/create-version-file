@@ -1,5 +1,5 @@
 name: 'Create Version File'
-description: 'Create and ouput a version file in json format'
+description: 'Create and output a version file in json format'
 inputs:
   version:
     description: 'Version number'
