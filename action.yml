@@ -1,5 +1,5 @@
 name: 'Create Version File'
-description: 'Create and ouput a version file in json format'
+description: 'Create and output a version file in json format'
 inputs:
   version:
     description: 'Version number'
@@ -15,5 +15,5 @@ inputs:
     required: true
     default: 'public'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
